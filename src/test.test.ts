@@ -9,4 +9,8 @@ describe("convert test", () => {
     // 実行 & 検証
     expect(convert(2)).toBe("2");
   });
+  test("3を渡すと文字列'Fizz'を返す", () => {
+    // 実行 & 検証
+    expect(convert(3)).toBe("Fizz");
+  });
 });
