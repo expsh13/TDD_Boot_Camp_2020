@@ -1,3 +1,3 @@
-export const convert = (a: number): string => {
+export const convert = (num: number): string => {
   return "1";
 };
